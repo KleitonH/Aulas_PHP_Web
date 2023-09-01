@@ -1,4 +1,4 @@
-<?php $estudantes = $_REQUEST['estudantes'] ?>
+<?php $estudantes = $_REQUEST['estudantes']; ?>
 <!-- Estilizar tabela em bootstrap style, -->
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -15,6 +15,9 @@
     <hr class="border-0">
     <h1 class="text-center bg-white rounded p-2">Tabela de estudantes</h2>
     <hr class="d-none">
+    <br>
+    <a href="/aula4/?controller=Estudante&acao=salvar" class="btn btn-success">Cadastrar</a>
+    <br>
     <table class="table table-striped">
       <thead>
         <tr>
